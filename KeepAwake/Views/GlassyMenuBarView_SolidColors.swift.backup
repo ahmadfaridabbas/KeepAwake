@@ -1,0 +1,4 @@
+// Alternative version using solid colors instead of gradients
+// Replace gradient usage with:
+// .fill(manager.isAwake ? Color.red : Color.blue)
+// .shadow(color: (manager.isAwake ? Color.red : Color.blue).opacity(0.3), radius: 4)
