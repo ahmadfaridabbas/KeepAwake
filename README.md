@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/logo.png?v=2" alt="KeepAwake icon" width="128" height="128" />
+<img src="docs/logo.png?v=3" alt="KeepAwake icon" width="128" height="128" />
 
 # KeepAwake
 
