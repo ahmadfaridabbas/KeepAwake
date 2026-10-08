@@ -29,12 +29,9 @@ quick timers, global keyboard shortcuts, and launch-at-login support.
 
 ## Screenshots
 
-> Add your own captures to `docs/screenshots/` and they'll show up here
-> (⌘⇧4 then Space to capture a single window on macOS).
-
-| Menu bar | Preferences | Custom timer |
-| :------: | :---------: | :----------: |
-| ![Menu bar popover](docs/screenshots/menubar.png) | ![Preferences window](docs/screenshots/preferences.png) | ![Custom timer window](docs/screenshots/custom-timer.png) |
+| Menu bar | Timer active | Preferences |
+| :------: | :----------: | :---------: |
+| ![Menu bar popover](docs/screenshots/menubar.png) | ![Timer running](docs/screenshots/menubar-active.png) | ![Preferences window](docs/screenshots/preferences.png) |
 
 ## Keyboard Shortcuts
 
