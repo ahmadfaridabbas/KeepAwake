@@ -62,8 +62,30 @@ Mac returns to its normal sleep behavior.
 
 ## Requirements
 
-- macOS (Apple silicon or Intel)
-- Xcode (to build from source)
+- macOS 26.0 (Tahoe) or later — the UI uses the system Liquid Glass effects
+- Apple silicon or Intel
+- Xcode 26+ (only needed to build from source)
+
+## Installation
+
+1. Download `KeepAwake.zip` from the [latest release](https://github.com/ahmadfaridabbas/KeepAwake/releases/latest) and unzip it.
+2. Move **KeepAwake.app** to your `/Applications` folder.
+
+### "KeepAwake is damaged / from an unidentified developer"
+
+KeepAwake is not signed with an Apple Developer ID or notarized, so macOS
+Gatekeeper quarantines it on first launch. To allow it to run, remove the
+quarantine attribute with a single command:
+
+```bash
+xattr -dr com.apple.quarantine /Applications/KeepAwake.app
+```
+
+Then open the app normally. (Alternatively, right-click the app → **Open** →
+**Open** the first time, which tells Gatekeeper you trust it.)
+
+> This step is only needed because the app is distributed outside the App Store
+> without notarization — it does not disable Gatekeeper for anything else.
 
 ## Building from source
 
