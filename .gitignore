@@ -98,3 +98,8 @@ old_views_backup_*/
 
 # Temporary icon files
 Untitled.icon/
+
+# Exported / archived app builds
+*.app/
+KeepAwake */
+
