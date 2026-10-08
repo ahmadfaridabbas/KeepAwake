@@ -87,34 +87,12 @@ Then open the app normally. (Alternatively, right-click the app → **Open** →
 > This step is only needed because the app is distributed outside the App Store
 > without notarization — it does not disable Gatekeeper for anything else.
 
-## Building from source
-
-```bash
-git clone https://github.com/ahmadfaridabbas/KeepAwake.git
-cd KeepAwake
-open KeepAwake.xcodeproj
-```
-
-Then build and run the **KeepAwake** scheme in Xcode (⌘R). The
-[KeyboardShortcuts](https://github.com/sindresorhus/KeyboardShortcuts) Swift
-package is resolved automatically via Swift Package Manager.
-
 ## Permissions
 
 On first launch KeepAwake requests:
 
 - **Accessibility** — required by the global keyboard-shortcut engine.
 - **Notifications** — optional, used for status alerts if enabled in Preferences.
-
-## Project structure
-
-```
-KeepAwake/
-├─ Core/        App entry point and window management
-├─ Managers/    Caffeinate control, preferences, launch-at-login
-├─ Views/       SwiftUI menu bar and preferences UI
-└─ Utilities/   Keyboard-shortcut definitions
-```
 
 ## License
 
